@@ -1,48 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Basic Javascript Concepts</title>
-<link rel="stylesheet" href="./TW.css">
-</head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Basic Javascript Concepts</title>
+        <link rel="stylesheet" href="./TW.css">
+        <link rel="stylesheet" href="./Animation/animate.css">
+       
+    </head>
 <body>
+ <header id="Animation">
+    <h1 id='Name'>
+            <em>Basic Javascript Concepts</em>
+        </h1>
+    <nav>
+        <ul id="navLinks">
+           <li>
+               <a href="./TW.html" class="navLinks"><em>Home</em></a>
+            </li>
+            <li>
+                <a href= "#Functions" class="navLinks"><em>Functions</em></a>
+            </li>
+            <li>
+                <a href= "#Objects" class="navLinks"><em>Objects</em></a>
+            </li>
+            <li>
+            <a href= "#Arrays" class="navLinks"><em>Arrays</em></a>
+            </li>
+            <li>
+                <a href ='#Index' class="navLinks"><em>Index</em></a>
+            </li>
 
-    <h1>Basic Javascript Concepts</h1>
-    <p></p>
-
-    <h2>Functions</h2>
-    <div class="codeExample">
-        <pre>
-            <code>
-                
-            </code>
-        </pre>
+        </ul>
+    </nav>
+    <hr class="bar" />
+</header>
+    <sidebar id="sidewrap">
+        <h3>LINKS</h3>
+        <div class="sideLink">
+            <h6 class="sideTitle">Javascript Info</h6>
+            <ul class="sideList">
+                <li>
+               <a href= "https://developer.mozilla.org/en-US/" class="sideLink" target= "blank">MDN Web Documents</a>
+                </li>
+                <li>
+                <a href= "https://www.w3schools.com/js/default.asp" class="sideLink" target= "blank">w3schools</a>
+                </li>
+                <li>
+                <a href= "https://stackoverflow.com/" class="sideLink" target="blank">stackoverflow</a>
+                </li>
+            </ul>
+        </div>
+    </sidebar>
+    <div id="beginning" class="animated">
+        <p>
+            <em>Basic Javascript Concepts</em> is a site for people who want to either,  start learning Javascript or want to understand some of the basic Javascript concepts.
+        </p>
     </div>
-    <p>Functions</p>
+
+    <section id="infoStuff">
+<article class="Info">
+    <a id="Functions"></a>
+<h2>Functions</h2>
+
+<div class="codeExample">
+    <pre><code><span class="functionKey">function</span> <span class="functionName">hi</span>(word){
+        <span class="keyword">return</span> word;
+    } 
+    console.<span class="method">log</span>(hi(<span class='param'>Hi</span>));</code></pre>
+</div>
+
+<div class='text'>
+    <p>Functions are lines of codes that can be used later to do a specific task. 
+        In the example above hi() is the key of the function, meaning its what you woud put to run the function, which would tell you "Hi".
+        
+</p>
+</div>
+</article>
 
 
-    <h2>Objects</h2>
-    <div class="codeExample">
-        <pre>
-            <code>
-                
-            </code>
-        </pre>
-    </div>
-    <p>The</p>
+<article class="Info">
+    <a id='Objects'></a>
+<h2>Objects</h2>
+
+<div class="codeExample">
+    <pre>
+        <code>
+                let heroes ={
+                    <span class="key">name</span>: <span class='stringValue'>"Batman"</span>
+                    <span class="key">company</span>: <span class='stringValue'>'DC'</span>
+                    <span class="key">age</span>: <span class='numValue'>30</span>
+                    <span class="key">isAwesome</span>: <span class='boolValue'>true</span>
+                }
+        </code>
+    </pre>
+</div>
+
+<div class='text'>
+    <p>Imagine a box that has a label on it that says, "blender", and in it has a blender with the brand name on it,
+        the label on the box itself is the objects, the blender is the property*, and the brand name is the value* of the property.
+    </p> 
+</div>
+</article>
 
 
+<article class='Info'>
+    <a id='Arrays'></a>
     <h2>Arrays</h2>
-    <div class="codeExample">
-        <pre>
-            <code>
-                
-            </code>
-        </pre>
-    </div>
-    <p>To</p>
-    
+
+<div class="codeExample">
+
+    <pre>
+        <code>
+            Let cats = [<span class='stringValue'>'Ragdoll'</span>, <span class='stringValue'>'Maine Coon'</span>, <span class='stringValue'>'Tabby'</span>]
+            console.<span class='method'>log</span>(cats[<span class='param'>1</span>]);  
+        </code>
+    </pre>
+</div>
+
+<div class='text'>
+    <p>This is a simple one to understand, its basically like the objects but has no key to access it.
+        The method you use to get the data is called array indexing, which is always assuming that the first position in an array is zero and goes in increments of one. 
+        Use the link to MDN to search for more details, and things you can do with Arrays.
+    </p>
+</div>
+</article>
+
+
+<article class='Info'></article>
+<div id='Index'>
+    <h2>Index</h2>
+    <p> <li>Variable: Words or letters that are used to define specific things.</li>
+       <li> Strings: Words or phrases that are used in lines of codes; must have quotation marks, or the back tick (in some cases)</li>
+        <li>Value: what the specific aspect is</li>
+        <li>Property: aspect of an object</li>
+    </p>
+</div>
+</section>
+<footer>
+    <p>Made by Aaron Hodge</p>
+    <p>For an Eleven Fifty Academy project</p>
+</footer>
 </body>
 </html>

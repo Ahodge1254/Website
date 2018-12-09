@@ -1,8 +1,198 @@
-#codeExample{
-height: 1px;
+html, body{
+width: 100%;
+padding: 0;
+margin: 0;
+background-color: white;
+color: #707070;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.codeExample{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgb(53, 53, 53);
+color: white;
+min-height: 15vh;
+max-height: 50vh;
+width: 70vw;
+font-size: 140%;
+margin: auto auto 3vh auto;
+padding: 5px 0 5px 15px;
+border-radius: 10px;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif
 }
 
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.sideLink{
+height: 35vh;
+width: 25vw;
+background-color: rgb(206, 47, 47);
+position: relative;
+top: 4vh;
+border-radius: 25px;
+text-transform: uppercase;
+margin-top: 3vh;
+padding-top: 1vh;
+}
+
+a.sideLink{
+    color: white;
+    text-decoration: none;
+    margin-right: 1vw;
+}
+
+a.sideLink:hover{
+color: orange
+} 
+
+#infoStuff{
+max-width: 55vw;
+margin: 5vw 5vw 5vw 5vw;
+}
+
+.Info{
+    max-width: 100%;
+    margin: 5vh 0 5vh 0;
+}
+
+.Info h2 {
+    text-align: center;
+    margin-right: 3vw;
+    font-size: 175%;
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+.Info p {
+    width: 60%;
+    margin: auto;
+}
+
+hr.bar{
+    height: 2vh;
+    background-color: rgb(69, 178, 221);
+    margin:0 2vw 0 2vw;
+    border-radius: 15px;
+    width: 75%;
+}
+
+#sidewrap{
+float: right;
+margin-right: 3vw;
+width: 10vw;
+height: 30vh;
+text-align: center;
+}
+
+#sidewrap h3{
+font-weight: 100;
+font-size: 150%;
+position: relative;
+top: 4vh;
+}
+
+#sidewrap h6{
+margin: 2vh auto auto auto;
+}
+
+.sideList{
+list-style-type: none;
+font-size: 115%;
+}
+
+.sideTitle{
+font-size: 115%;
+color: black;
+}
+
+code{
+    color: rgb(204, 204, 204);
+}
+
+footer{
+color: white;
+position: fixed;
+background-color: rgb(32, 32, 32, .9);
+bottom: 0;
+height: 12vh;
+width: 100%;
+padding-left: 1vw;
+}
+
+.functionKey{
+color: purple
+}
+
+.functionName{
+color: rgb(230, 153, 10)
+}
+
+.keyword{
+color: blue
+}
+
+.method{
+color: indigo
+}
+
+.key{
+color: limegreen;
+}
+
+.stringValue{
+color: limegreen;
+}
+
+.numValue{
+color: violet;
+}
+
+.boolValue{
+color: violet;
+}
+
+.param{
+    color: rgb(230, 153, 10)
+}
+
+#beginning{
+max-width: 60%;
+margin: 5vh 0 0 4vw;
+font-size: 150%;
+}
+
+.Name{
+font-size: 400%;
+margin: 0;
+position: relative;
+left: 2vw;
+top: 9vh;
+font-weight: 100;
+max-width: 40%;
+}
+
+#navLinks{
+display: flex;
+flex-direction: row;
+font-size: 125%;
+width: 10vw;
+position: relative;
+left: 0;
+top: 1vh;
+list-style-type: none;
+}
+
+a.navLinks{
+color: #707070;
+margin-left: 1vw;
+text-decoration: none;
+}
+
+.navLinks :hover{
+    color: orange;
+}
